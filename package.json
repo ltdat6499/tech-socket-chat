@@ -1,0 +1,27 @@
+{
+  "name": "training-project-socket-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@lubrytics.com:2289/training/thanhdat/training-project-socket-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zcorky/koa-socket.io": "^0.0.4",
+    "faker": "^5.5.3",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-ejs": "^4.3.0",
+    "koa-morgan": "^1.0.1",
+    "koa-respond": "^2.1.0",
+    "koa-router": "^10.1.1",
+    "koa-socket-2": "^2.0.0",
+    "socket.io": "^4.2.0"
+  }
+}
